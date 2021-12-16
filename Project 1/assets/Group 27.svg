@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_27" data-name="Group 27" transform="translate(-1057 -25)">
+    <g id="Group_26" data-name="Group 26">
+      <circle id="Ellipse_23" data-name="Ellipse 23" cx="21" cy="21" r="21" transform="translate(1057 25)" fill="#2b9dff"/>
+      <g id="Symbol_4_2" data-name="Symbol 4 – 2" transform="translate(1066 34)" clip-path="url(#clip-path)">
+        <rect id="Rectangle_534" data-name="Rectangle 534" width="24" height="24" fill="#fff" opacity="0"/>
+        <path id="Union_4" data-name="Union 4" d="M-2359-211a.945.945,0,0,1-1-1,.945.945,0,0,1,1-1h18a.945.945,0,0,1,1,1,.945.945,0,0,1-1,1Zm0-6a.945.945,0,0,1-1-1,.944.944,0,0,1,1-1h18a.944.944,0,0,1,1,1,.945.945,0,0,1-1,1Z" transform="translate(2362 227)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
