@@ -228,9 +228,11 @@ font-display:auto;font-style:normal;font-weight:400;
     background: #2B9DFF 0% 0% no-repeat padding-box;
     border-radius: 1000px;
     opacity: 0.03;
-    width: 100%;
+    width: 284px;
     height: 134px;
     position: absolute;
+    top: -5vh;
+    left: -5vw;
 }
 .form__container {
     display: none;
@@ -310,6 +312,7 @@ input[type=text] {
         display: none;
         overflow: hidden;
     }
+
 }
 
 @media (max-width:965px) and (min-width: 480px) {
@@ -337,23 +340,33 @@ input[type=text] {
     }
 }
 
+@media (min-width:390px) {
+    .content__box__img {
+        background-position-x: 14vw;
+    }
+}
+
 @media (min-width:440px) {
     .hero__image {
         background-position-x: -65%;
     }
 }
 
-@media (min-width:390px) {
-    .content__box__img {
-        background-position-x: 14vw;
-    }
-}
+
 @media (min-width:480px) {
     .content__box__img {
         background-position-x: -2vw;
     }
+    .content__box__bubble__2 {
+        top: 0;
+        left: -15vw;
+    }
 }
-/*fix bubble2 after this*/
+@media (min-width:540px) {
+    .content__box__bubble__2 {
+        left: -5vw;
+    }
+}
 @media (min-width:760px) {
     .content__box__img {
         background-position-x: 9vw;
@@ -362,6 +375,9 @@ input[type=text] {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .content__box__bubble {
+        background-position-x: 15vw;
     }
 }
 @media (min-width:900px) {
@@ -433,9 +449,14 @@ input[type=text] {
     }
     .content__box__bubble {
         margin-top: 0;
+        background-position-x: 20vw;
     }
     .content__title__left {
         width: 47%;
+    }
+    .content__box__icon {
+        height: 650px;
+        margin-bottom: 15vh;
     }
     .content__box__icons {
         width: 47%;
@@ -449,7 +470,8 @@ input[type=text] {
     }
     .content__box__form {
         margin-top: 0;
-        width: 50%;
+        width: 100%;
+        justify-content: flex-start;
     }
     .footer__box {
         margin-top: 0;
@@ -474,6 +496,12 @@ input[type=text] {
         height: 100%;
         margin-bottom: 25%;
     }
+    .content__box__bubble {
+        background: transparent url('../assets/Group_50.svg') 0% 0% no-repeat padding-box;
+        height: 258px;
+        width: 100%;
+        background-position-x: 18vw;
+    }
 }
 @media (min-width:1250px) {
     .hero__image {
@@ -482,6 +510,7 @@ input[type=text] {
     .content__box__img {
         background-position-x: 17vw;
     }
+
 }
 @media (min-width:1350px) {
     .hero__image {
